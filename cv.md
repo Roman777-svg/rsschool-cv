@@ -1,9 +1,9 @@
-# Roman Novyk
+# SV Roman Novyk (front-end developer)
 
 ### Contacts
 
-### phone number 0660314302
-### email rolros7@gmail.com
+#### phone: +380660314302
+#### email: rolros7@gmail.com
 
 ### About Me
 
@@ -31,5 +31,5 @@ function multiply(a, b){
   };
 ```
 
-### My finish project:
+### Experience, my finish projects:
 
