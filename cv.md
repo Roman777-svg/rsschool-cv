@@ -4,6 +4,7 @@
 
 #### phone: +380660314302
 #### email: rolros7@gmail.com
+#### Discord: Roman777-svg 
 
 ### About Me
 
