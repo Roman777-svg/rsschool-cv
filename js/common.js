@@ -7,7 +7,7 @@ const btnLogin = document.querySelector('.btn-login');
 const popup_container = document.querySelector('.popup_container');
 
 
-
+//POPUP
 
 const handleClick = (event) =>{
         popup_container.classList.toggle('hidden')
@@ -25,3 +25,16 @@ popup_container.addEventListener('click',(event) =>{
 
     // console.log(event);
  })
+//POPUP
+
+
+ //SLIDER
+ const btnactiveClick = document.querySelector('.active-dots');
+
+ btnactiveClick.addEventListener('click',(eventclick)=>{
+    if(eventclick.target.className ==='active-dots'){
+        
+    }
+ })
+
+ //SLIDER

@@ -187,10 +187,33 @@ text-align: center;
     display: flex;
     justify-content: space-around;
 }
+
+.slide p{
+    padding-left: 16px;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    font-size: 32px;
+    font-weight: medium;
+    text-transform: uppercase;
+}
 .slider-container .slide{
     padding: 0 30px;
+    position: relative;
 }
 .slider-container .slide img{
     border-radius: 16px;
 }
+.dots{
+    width: 20px;
+    height: 20px;
+    background: #F2785C;
+    display: inline-block;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+.navigateslider{text-align: center;     padding-top: 19px;}
+.navigateslider ul li{list-style: none;display: inline-block;margin: 0 5px;}
+.active-dots{opacity: 1;}
+
 /* SLIDER */
