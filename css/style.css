@@ -217,3 +217,74 @@ text-align: center;
 .active-dots{opacity: 1;}
 
 /* SLIDER */
+
+
+
+
+
+/* row-travel */
+
+.col-travel{
+    display: flex;
+}
+.row-travel{
+    max-width: 1195px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.travel-txt h3{
+    font-size: 35px;
+    color: #0D606F;
+}
+.travel-txt p{
+    font-size: 20px;
+    color: #0D606F;
+    margin: 0;
+}
+.btn-readmore{
+    color: #0D606F;
+    font-weight: bold;
+    font-size: 20px;
+}
+.travel-photo{
+    padding-right: 40px;
+}
+.travel-txt{
+    max-width: 760px;
+}
+
+.travel_stories{
+    background: rgb(255 255 255 / 70%);
+}
+.travel-photo img{
+    border-radius: 16px;
+    filter: drop-shadow(0px 4px 4px #0D606F);
+}
+
+.bg-section{
+    background-image: url(/img/bg-footer.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.btn {
+    padding: 17px 0px 17px 25px;
+    text-align: center;
+    font-size: 24px;
+    background: rgb(13, 96, 111);
+    border-radius: 10px;
+    width: 208px;
+    margin: 0 auto;
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 0px;
+    font-weight: medium;
+    background-image: url(/img/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: 33px 19px;
+}
+.btn:hover{
+    background-color: rgb(8, 63, 73);
+}
