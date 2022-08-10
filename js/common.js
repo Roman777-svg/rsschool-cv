@@ -6,6 +6,22 @@ const btnLogin = document.querySelector('.btn-login');
 
 const popup_container = document.querySelector('.popup_container');
 
+// burger menu
+
+let parentBlockMenu = document.querySelector('.top-bl-1');
+let btnMenuMobile = document.querySelector('.btn-mobile-menu');
+
+
+parentBlockMenu.insertAdjacentHTML('beforeEnd','<div class="btn-mobile-menu"><img src="img/solid-icone-menu.svg" alt="close-ic"></div>')
+
+
+let innerHtmlBntmynu = parentBlockMenu;
+
+const parentblockMenu = document.querySelector('.menu-col');
+
+innerHtmlBntmynu.addEventListener('click',()=>{
+     parentblockMenu.classList.toggle('hidden')
+});
 
 
 

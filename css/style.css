@@ -72,9 +72,19 @@ header{
 menu{
     display: flex;
 }
+/* medias menu mobile */
+.btn-mobile-menu{
+display: none;
+position: absolute;
+right: 0px;
+z-index: 8;
+}
+/*  */
 .memu-col{
     display: flex;
     align-items: center;
+    visibility: hidden;
+    position: relative;
 }
 
 .menu-col ul li{

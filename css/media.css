@@ -1,5 +1,28 @@
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
+@media only screen and (max-width: 1060px) {
+  .btn-col{display: none;}
+  .top-bl-1{justify-content: space-around;}
+  }
+
+@media only screen and (max-width: 950px){ 
+   .top-bl-1{position: relative;}
+   .menu-col{
+    top: 0;
+    position: absolute;
+    right: 0px;
+    background-color: #F2785C;
+    width: 165px;
+    height: 250px;
+    margin: 0px;
+    z-index: 9;
+
+    }
+    .menu-col ul li {
+     display: block;
+     text-align: right;
+     padding: 2px 0;
+    }
+
+    .btn-mobile-menu{
+        display: block;
     }
   }
