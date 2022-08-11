@@ -77,9 +77,7 @@ popup_container.addEventListener('click',(event) =>{
 });
 
  //SLIDER
-
-
-
+//dddd
 
  
  
