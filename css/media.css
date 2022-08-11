@@ -4,7 +4,23 @@
   }
 
 @media only screen and (max-width: 950px){ 
-   .top-bl-1{position: relative;}
+   .section-title h1{display: none}
+   .section-title p{display: none;}
+   .section-title{
+      padding:  50px 0 0 0;
+    }
+   .top-bl-1{
+    position: relative;
+    background: none;
+    justify-content: space-between;
+  }
+  .qustion-panel{
+    margin:  0 auto;
+    max-width: 528px;
+  }
+  .q-text{
+    padding-right: 20px;
+  }
    .menu-col{
     top: 0;
     position: absolute;
