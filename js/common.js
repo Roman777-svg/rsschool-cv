@@ -77,8 +77,8 @@ popup_container.addEventListener('click',(event) =>{
 });
 
  //SLIDER
-//dddd
-
+//dddd3333
+let varrss = 23;
  
  
 // for (let i = 0; i < elems.children.length; i++) {
