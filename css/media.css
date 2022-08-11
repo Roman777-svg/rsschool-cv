@@ -14,8 +14,9 @@
     height: 250px;
     margin: 0px;
     z-index: 9;
-
     }
+    .visible-menu{visibility: visible;}
+    .hidden-menu{visibility: hidden;}
     .menu-col ul li {
      display: block;
      text-align: right;
@@ -24,5 +25,11 @@
 
     .btn-mobile-menu{
         display: block;
+    }
+    .close-btn-menu{
+      top: 4px;
+      position: absolute;
+      left: 5px;
+      display: block;
     }
   }

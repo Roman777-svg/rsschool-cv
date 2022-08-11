@@ -43,6 +43,9 @@ menu{padding: 0;margin: 0;}
     visibility: visible;
 }
 
+.close-btn-menu{
+    display: none;
+}
 
 header{
     background-image: url(/img/bg-header.jpg);
@@ -86,6 +89,7 @@ z-index: 8;
     visibility: hidden;
     position: relative;
 }
+
 
 .menu-col ul li{
     display: inline-block

@@ -8,19 +8,30 @@ const popup_container = document.querySelector('.popup_container');
 
 // burger menu
 
+
+
+
+
+// parentblocListmenu.insertAdjacentHTML('beforeEnd','<div class="close-btn-menu"><img src="img/close-ic.svg" alt="close-ic"></div>')
+
+
+
 let parentBlockMenu = document.querySelector('.top-bl-1');
-let btnMenuMobile = document.querySelector('.btn-mobile-menu');
+const parentMenuCont = document.querySelector('.menu-col');
+const btnOpenMobemu = document.querySelector('.btn-mobile-menu')
+const btnCloseMobemu = document.querySelector('.close-btn-menu')
+
+// let innerHtmlBntmynu = parentBlockMenu;
+
+// const parentblockMenu = document.querySelector('.menu-col');
 
 
-parentBlockMenu.insertAdjacentHTML('beforeEnd','<div class="btn-mobile-menu"><img src="img/solid-icone-menu.svg" alt="close-ic"></div>')
+btnOpenMobemu.addEventListener('click',()=>{
+    parentMenuCont.classList.toggle('hidden-menu');
+});
 
-
-let innerHtmlBntmynu = parentBlockMenu;
-
-const parentblockMenu = document.querySelector('.menu-col');
-
-innerHtmlBntmynu.addEventListener('click',()=>{
-     parentblockMenu.classList.toggle('hidden')
+btnCloseMobemu.addEventListener('click',()=>{
+    parentMenuCont.classList.toggle('hidden-menu');
 });
 
 
@@ -76,9 +87,7 @@ popup_container.addEventListener('click',(event) =>{
    parent.prepend(elemsLast); 
 });
 
- //SLIDER
-//dddd3333
-let varrss = 23;
+
  
  
 // for (let i = 0; i < elems.children.length; i++) {
